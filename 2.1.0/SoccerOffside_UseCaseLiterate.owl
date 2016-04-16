@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside_Literate/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside_Literate/">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/2.1.0</Import>
+    <Declaration>
+        <NamedIndividual IRI="AP1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BP1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AP2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="RP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BP2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OffsideIrreleventPosition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AP3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BP3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AP4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BallP12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BallP10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BallP4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BallP8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AP5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BP4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BP5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AP6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OwnHalfPosition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AP7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BP6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BP7"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="OffsideIrreleventPosition"/>
+        <ObjectUnionOf>
+            <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/BackupBallPosition"/>
+            <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/GlovePosition"/>
+            <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLastDefenderPosition"/>
+            <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/RefereePosition"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/AttackerPosition"/>
+                <Class IRI="OwnHalfPosition"/>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="OffsideIrreleventPosition"/>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OwnHalfPosition"/>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/BackupBall"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Ball10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/BackupBall"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Ball12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/InFieldBall"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Ball4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/BackupBall"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Ball8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLasterPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/GoalKeeperA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLasterPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/GoalKeeperB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLasterPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLasterPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLasterPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLasterPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLasterPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/SecondLastPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLasterPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLasterPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerB1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLasterPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerB2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLasterPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerB3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLasterPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerB4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLasterPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerB5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/SecondLastPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerB6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/NotSecondLasterPlayer"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerB7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OwnHalfPosition"/>
+        <NamedIndividual IRI="AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="AP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="AP2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="AP3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="AP4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OwnHalfPosition"/>
+        <NamedIndividual IRI="AP4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="AP5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OwnHalfPosition"/>
+        <NamedIndividual IRI="AP5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="AP6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OwnHalfPosition"/>
+        <NamedIndividual IRI="AP6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="AP7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OwnHalfPosition"/>
+        <NamedIndividual IRI="AP7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="BP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OwnHalfPosition"/>
+        <NamedIndividual IRI="BP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="BP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="BP2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OwnHalfPosition"/>
+        <NamedIndividual IRI="BP2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="BP3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OwnHalfPosition"/>
+        <NamedIndividual IRI="BP3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="BP4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OwnHalfPosition"/>
+        <NamedIndividual IRI="BP4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="BP5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OwnHalfPosition"/>
+        <NamedIndividual IRI="BP5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="BP6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OwnHalfPosition"/>
+        <NamedIndividual IRI="BP6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="BP7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OwnHalfPosition"/>
+        <NamedIndividual IRI="BP7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="BallP10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="BallP12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="BallP4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="BallP8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Position"/>
+        <NamedIndividual IRI="RP"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="BP"/>
+        <NamedIndividual IRI="BP1"/>
+        <NamedIndividual IRI="BP2"/>
+        <NamedIndividual IRI="BP3"/>
+        <NamedIndividual IRI="BP4"/>
+        <NamedIndividual IRI="BP5"/>
+        <NamedIndividual IRI="BP6"/>
+        <NamedIndividual IRI="BP7"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Ball10"/>
+        <NamedIndividual IRI="BallP10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Ball12"/>
+        <NamedIndividual IRI="BallP12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Ball4"/>
+        <NamedIndividual IRI="BallP4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Ball8"/>
+        <NamedIndividual IRI="BallP8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/GoalKeeperA"/>
+        <NamedIndividual IRI="AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/GoalKeeperB"/>
+        <NamedIndividual IRI="BP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA1"/>
+        <NamedIndividual IRI="AP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/involves"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA1"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/OpponentChallenge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA2"/>
+        <NamedIndividual IRI="AP2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/touch"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA2"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/Ball4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA3"/>
+        <NamedIndividual IRI="AP3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA4"/>
+        <NamedIndividual IRI="AP4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA5"/>
+        <NamedIndividual IRI="AP5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA6"/>
+        <NamedIndividual IRI="AP6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerA7"/>
+        <NamedIndividual IRI="AP7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerB1"/>
+        <NamedIndividual IRI="BP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerB2"/>
+        <NamedIndividual IRI="BP2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerB3"/>
+        <NamedIndividual IRI="BP3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerB4"/>
+        <NamedIndividual IRI="BP4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerB5"/>
+        <NamedIndividual IRI="BP5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerB6"/>
+        <NamedIndividual IRI="BP6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/PlayerB7"/>
+        <NamedIndividual IRI="BP7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/hasPosition"/>
+        <NamedIndividual IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/referee"/>
+        <NamedIndividual IRI="RP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/isNearerToDefenderGoalLineThan"/>
+        <NamedIndividual IRI="AP1"/>
+        <NamedIndividual IRI="BP6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://tw.rpi.edu/web/Courses/Ontologies/2016/Soccer_Offside/isNearerToDefenderGoalLineThan"/>
+        <NamedIndividual IRI="AP1"/>
+        <NamedIndividual IRI="BallP4"/>
+    </ObjectPropertyAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+
