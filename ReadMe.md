@@ -9,9 +9,8 @@ prefix so: <http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/>
 so:ActivePlay <=> {so:ball_touch, so:opponent_challenge}
 
 so:Ball <=> {so:ball4, so:ball8, so:ball10, so:ball12}
-
---> BackupBall  (no definition, for data annotation)	
---> InFieldBall (no definition, for data annotation)
+|---> BackupBall  (no definition, for data annotation)	
+|---> InFieldBall (no definition, for data annotation)
 
 so:Golve <=> {so:goalkeeper_A_left_glove, so:goalkeeper_A_right_glove, 
 			  so:goalkeeper_B_left_glove, so:goalkeeper_B_right_glove}
