@@ -1,1 +1,0 @@
-# soccer-offside-ontology
