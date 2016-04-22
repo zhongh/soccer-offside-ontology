@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/1.0.0" uri="soccer_offside.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1461271486929" name="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/" uri="soccer_offside.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1461271486929" name="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/" uri="soccer_offside_test_individuals.owl"/>
+    </group>
+</catalog>

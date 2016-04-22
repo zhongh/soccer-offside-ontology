@@ -1,0 +1,525 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Soccer_Offside "http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/" >
+]>
+
+
+<rdf:RDF xmlns="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/"
+     xml:base="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Soccer_Offside="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/">
+    <owl:Ontology rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/">
+        <owl:imports rdf:resource="&Soccer_Offside;1.0.0"/>
+        <owl:versionIRI rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/1.0.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/ball10 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;ball10">
+        <rdf:type rdf:resource="&Soccer_Offside;BackupBall"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball10_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/ball12 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;ball12">
+        <rdf:type rdf:resource="&Soccer_Offside;BackupBall"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball12_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/ball4 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;ball4">
+        <rdf:type rdf:resource="&Soccer_Offside;InFieldBall"/>
+        <rdfs:comment xml:lang="en">suppose Ball4 is the InFieldBall</rdfs:comment>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball4_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/ball8 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;ball8">
+        <rdf:type rdf:resource="&Soccer_Offside;BackupBall"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball8_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/goalkeeper_A -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_A">
+        <rdf:type rdf:resource="&Soccer_Offside;NotSecondLastPlayer"/>
+        <rdf:type rdf:resource="&Soccer_Offside;PlayerAtOwnHalf"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_A_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/goalkeeper_A_left_glove -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_A_left_glove">
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_A_left_glove_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/goalkeeper_A_right_glove -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_A_right_glove">
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_A_right_glove_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/goalkeeper_B -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_B">
+        <rdf:type rdf:resource="&Soccer_Offside;NotSecondLastPlayer"/>
+        <rdf:type rdf:resource="&Soccer_Offside;PlayerAtOwnHalf"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_B_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/goalkeeper_B_left_glove -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_B_left_glove">
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_B_left_glove_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/goalkeeper_B_right_glove -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_B_right_glove">
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_B_right_glove_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A1 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;player_A1">
+        <rdf:type rdf:resource="&Soccer_Offside;NotSecondLastPlayer"/>
+        <rdfs:comment xml:lang="en">Suppose that Player A1 is at offside position, but is not involved in the active play</rdfs:comment>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A1_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A2 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;player_A2">
+        <rdf:type rdf:resource="&Soccer_Offside;NotSecondLastPlayer"/>
+        <rdfs:comment xml:lang="en">suppose player A2 touches the ball</rdfs:comment>
+        <Soccer_Offside:touches rdf:resource="&Soccer_Offside;ball4"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A2_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A3 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;player_A3">
+        <rdf:type rdf:resource="&Soccer_Offside;NotSecondLastPlayer"/>
+        <rdfs:comment xml:lang="en">suppose that player A3 commits the offside offence</rdfs:comment>
+        <Soccer_Offside:isNearerToDefenderGoalLineThan rdf:resource="&Soccer_Offside;ball4"/>
+        <Soccer_Offside:isInvolvedIn rdf:resource="&Soccer_Offside;opponent_challenge"/>
+        <Soccer_Offside:isNearerToDefenderGoalLineThan rdf:resource="&Soccer_Offside;player_B6"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A3_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A4 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;player_A4">
+        <rdf:type rdf:resource="&Soccer_Offside;NotSecondLastPlayer"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A4_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A5 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;player_A5">
+        <rdf:type rdf:resource="&Soccer_Offside;NotSecondLastPlayer"/>
+        <rdf:type rdf:resource="&Soccer_Offside;PlayerAtOwnHalf"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A5_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;player_A6">
+        <rdf:type rdf:resource="&Soccer_Offside;PlayerAtOwnHalf"/>
+        <rdf:type rdf:resource="&Soccer_Offside;SecondLastPlayer"/>
+        <rdfs:comment xml:lang="en">suppose Player A6 is the second last player of Team A</rdfs:comment>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A6_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;player_A7">
+        <rdf:type rdf:resource="&Soccer_Offside;NotSecondLastPlayer"/>
+        <rdf:type rdf:resource="&Soccer_Offside;PlayerAtOwnHalf"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A7_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;player_B1">
+        <rdf:type rdf:resource="&Soccer_Offside;NotSecondLastPlayer"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B1_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B2 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;player_B2">
+        <rdf:type rdf:resource="&Soccer_Offside;NotSecondLastPlayer"/>
+        <rdf:type rdf:resource="&Soccer_Offside;PlayerAtOwnHalf"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B2_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B3 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;player_B3">
+        <rdf:type rdf:resource="&Soccer_Offside;NotSecondLastPlayer"/>
+        <rdf:type rdf:resource="&Soccer_Offside;PlayerAtOwnHalf"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B3_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B4 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;player_B4">
+        <rdf:type rdf:resource="&Soccer_Offside;NotSecondLastPlayer"/>
+        <rdf:type rdf:resource="&Soccer_Offside;PlayerAtOwnHalf"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B4_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B5 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;player_B5">
+        <rdf:type rdf:resource="&Soccer_Offside;NotSecondLastPlayer"/>
+        <rdf:type rdf:resource="&Soccer_Offside;PlayerAtOwnHalf"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B5_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B6 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;player_B6">
+        <rdf:type rdf:resource="&Soccer_Offside;PlayerAtOwnHalf"/>
+        <rdf:type rdf:resource="&Soccer_Offside;SecondLastPlayer"/>
+        <rdfs:comment xml:lang="en">suppose Player B6 is the second last player of Team B</rdfs:comment>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B6_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B7 -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;player_B7">
+        <rdf:type rdf:resource="&Soccer_Offside;NotSecondLastPlayer"/>
+        <rdf:type rdf:resource="&Soccer_Offside;PlayerAtOwnHalf"/>
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B7_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/referee -->
+
+    <rdf:Description rdf:about="&Soccer_Offside;referee">
+        <Soccer_Offside:hasPosition rdf:resource="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/referee_position"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball10_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball10_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball12_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball12_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball4_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball4_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball8_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball8_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_A_left_glove_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_A_left_glove_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_A_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_A_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_A_right_glove_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_A_right_glove_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_B_left_glove_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_B_left_glove_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_B_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_B_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_B_right_glove_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_B_right_glove_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A1_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A1_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A2_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A2_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A3_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A3_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A4_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A4_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A5_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A5_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A6_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A6_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A7_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A7_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B1_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B1_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B2_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B2_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B3_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B3_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B4_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B4_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B5_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B5_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B6_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B6_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B7_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B7_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/referee_position -->
+
+    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/referee_position">
+        <rdf:type rdf:resource="&Soccer_Offside;Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&Soccer_Offside;ball10"/>
+            <rdf:Description rdf:about="&Soccer_Offside;ball12"/>
+            <rdf:Description rdf:about="&Soccer_Offside;ball4"/>
+            <rdf:Description rdf:about="&Soccer_Offside;ball8"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball10_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball12_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball4_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/ball8_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_A_left_glove_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_A_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_A_right_glove_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_B_left_glove_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_B_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/goalkeeper_B_right_glove_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A1_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A2_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A3_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A4_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A5_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A6_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_A7_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B1_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B2_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B3_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B4_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B5_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B6_position"/>
+            <rdf:Description rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside_Test_Individuals/player_B7_position"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
